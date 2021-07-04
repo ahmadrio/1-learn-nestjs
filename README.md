@@ -8,7 +8,7 @@ Belajar API backend dengan NestJS dan sequelize untuk koneksi ke database. Sudah
 
 - Jalankan perintah ini:
 
-```
+```bash
 $ npm install
 
 # untuk membuat tabel baru dengan nama file `database-dev.sqlite`
