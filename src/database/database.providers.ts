@@ -1,5 +1,5 @@
-import { Sequelize } from "sequelize-typescript";
-import { ConfigService } from "src/shared/config/config.service";
+import { Sequelize } from 'sequelize-typescript';
+import { ConfigService } from 'src/shared/config/config.service';
 
 export const databaseProviders = [
   {
@@ -11,6 +11,6 @@ export const databaseProviders = [
       await sequelize.sync();
 
       return sequelize;
-    }
-  }
+    },
+  },
 ];

@@ -1,9 +1,9 @@
-import { Global, Module } from "@nestjs/common";
-import { ConfigService } from "./config/config.service";
+import { Global, Module } from '@nestjs/common';
+import { ConfigService } from './config/config.service';
 
 @Global()
 @Module({
   providers: [ConfigService],
-  exports: [ConfigService]
+  exports: [ConfigService],
 })
 export class SharedModule {}
